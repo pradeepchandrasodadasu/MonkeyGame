@@ -33,7 +33,7 @@ function setup() {
   forest = createSprite(100,height/10,10,10);
   forest.velocityX = -5;
   forest.addImage(forestImg);
-  forest.scale = 5;
+  forest.scale = width/100;
   
   //create monkey as sprite object & add animation to monkey
   monkey = createSprite(50,height-30,10,10);
